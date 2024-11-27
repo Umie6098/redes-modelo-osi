@@ -1,0 +1,89 @@
+O modelo de camadas OSI (Open Systems Interconnection) é um padrão de referência criado pela ISO (International Organization for Standardization) para descrever como diferentes sistemas de comunicação em rede interagem. Ele organiza as funções da rede em 7 camadas, cada uma responsável por uma tarefa específica.
+
+1. Física
+
+Função: Define os aspectos físicos da transmissão de dados, como cabos, sinais elétricos, frequências, e conectores.
+
+Exemplos: Ethernet, cabos de fibra óptica, interfaces USB.
+
+
+2. Enlace de Dados
+
+Função: Garante a transmissão confiável de dados entre dispositivos na mesma rede local, incluindo detecção e correção de erros.
+
+Exemplos: Protocolo Ethernet, PPP, comutação de quadros.
+
+
+3. Rede
+
+Função: Gerencia o roteamento e o endereçamento dos dados para que eles cheguem ao destino correto em redes diferentes.
+
+Exemplos: Protocolo IP (IPv4/IPv6), roteadores.
+
+
+
+---
+
+4. Transporte
+
+Função: Garante a entrega confiável de dados ponta a ponta, gerenciando a segmentação, reordenação e controle de erros.
+
+Exemplos: Protocolo TCP (garantia de entrega), UDP (entrega mais rápida, sem garantia).
+
+
+
+---
+
+5. Sessão
+
+Função: Gerencia e mantém sessões de comunicação entre dois dispositivos, incluindo a abertura, manutenção e encerramento da conexão.
+
+Exemplos: Protocolos como SMB, RPC.
+
+
+
+---
+
+6. Apresentação
+
+Função: Converte os dados para um formato compreensível, cuidando da criptografia, compressão e tradução entre diferentes sistemas.
+
+Exemplos: SSL/TLS (criptografia), formatos como JPEG ou ASCII.
+
+
+
+---
+
+7. Aplicação
+
+Função: Fornece uma interface para o usuário interagir diretamente com a rede por meio de aplicações.
+
+Exemplos: HTTP (web), FTP (transferência de arquivos), SMTP (e-mail).
+
+
+Resumo Visual
+
+1. Física - Hardware e transmissão bruta.
+
+
+2. Enlace de Dados - Comunicação local confiável.
+
+
+3. Rede - Roteamento entre redes.
+
+
+4. Transporte - Conexão confiável ponta a ponta.
+
+
+5. Sessão - Gerenciamento de conexões.
+
+
+6. Apresentação - Formatação e segurança dos dados.
+
+
+7. Aplicação - Interação com o usuário.
+
+
+
+Cada camada depende da anterior e fornece serviços para a seguinte. O modelo OSI é teórico e usado para padronização; muitos protocolos modernos, como o TCP/IP, seguem uma abordagem prática simplificada.
+
